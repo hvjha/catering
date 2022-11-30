@@ -1,0 +1,44 @@
+#navbar{
+    /* flex-direction: column; */
+}
+#home{
+    height:370px;
+    /* flex-direction: column; */
+}
+#home::before{
+    height: 442px;
+}
+#home p{
+    font-size: 18px;
+}
+#services{
+    flex-direction: column;
+}
+/* #services .box{
+    padding:14px;
+    margin:2px 0px;
+    margin-bottom: 20px;
+} */
+#clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+#clients img{
+    width:40px;
+    height:auto;
+    padding:2px 6px;
+}
+#clients img:hover{
+    color:brown;
+    background-color: rgb(103, 59, 59);
+}
+#Contact-box form{
+    /* width:80%; */
+}
+.h-primary{
+    font-size: 24px;
+}
+.btm{
+    font-size: 13px;
+    padding:3px 8px;
+}
